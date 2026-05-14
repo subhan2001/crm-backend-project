@@ -1,0 +1,35 @@
+OUR CRM FLOW
+=============
+Customer raises complaint
+        ↓
+Complaint stored in PostgreSQL
+        ↓
+Admin checks complaint
+        ↓
+Admin updates status
+        ↓
+Reports generated
+        ↓
+Notifications sent
+
+
+
+MODULAR ARCHITECTURE
+====================
+crm_project/
+│
+├── accounts/          → Login/Register/User Roles
+├── complaints/        → Complaint Management
+├── reports/           → Reports & Analytics
+├── notifications/     → Email Alerts
+│
+├── crm_project/       → Main settings
+│
+├── manage.py
+
+1. Git + GitHub
+2. Swagger API Docs
+3. Docker
+4. Redis + Celery
+5. Kafka Basics
+6. AWS Deployment Structure
