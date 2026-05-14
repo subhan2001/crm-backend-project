@@ -1,0 +1,4 @@
+crmvenv/
+__pycache__/
+*.pyc
+.git

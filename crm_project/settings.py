@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'complaints',
     'reports',
     'notifications',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -85,9 +86,11 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'admin#2026',
         'HOST': 'localhost',
+        # 'HOST': 'host.docker.internal',
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
